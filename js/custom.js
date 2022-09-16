@@ -15,7 +15,6 @@ var orderByValue = '';
 // APIs.
 API_KEY = "4uncxvIJOc2PFG7fcubO_UuokiHWwlYGbK3aCBrJT0Q";
 apiUrl = "https://api.unsplash.com/photos/?client_id="+API_KEY+"&per_page=300";
-searchUrl = "https://api.unsplash.com/search/photos/?client_id="+API_KEY+"&query=";
 
 imageURLS = [];
 imageHTML = [];
