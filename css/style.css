@@ -1,0 +1,28 @@
+body {
+    overflow-x: hidden;
+}
+img:hover {
+    transform: scale(1.01);
+}
+
+.nextBtn{ 
+    position: fixed; right: 15%; top:50%; 
+    border: solid #fff;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.prevBtn{
+    position: fixed; left: 15%; top:50%;
+    border: solid #fff;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  cursor: pointer;
+}
