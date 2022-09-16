@@ -138,8 +138,8 @@ function displayFullImage(src) {
     modalBody.innerHTML = "";
     modalBody.appendChild(image);
 
-    imageViewLink.href=src;
-    downloadBtn.href=imageHTML[currentImage];
+    imageViewLink.href=imageHTML[currentImage];
+    downloadBtn.href=src;
 
     var myModal = new bootstrap.Modal(document.getElementById('modal'), {});
     myModal.show();

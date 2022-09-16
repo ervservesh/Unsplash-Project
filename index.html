@@ -8,67 +8,32 @@
     <title>Unsplash Images</title>
   </head>
   <body>
-
     <div class="container-fluid p-0 m-0">
-        
-        <!-- navbar -->
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="nav">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#" id="brand">Unsplash</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <select class="form-select border-0" id="orderby" onchange="orderBy(this)">
-                    <option selected value="latest">Latest</option>
-                    <option value="oldest">Oldest</option>
-                    <option value="popular">Popular</option>
-                  </select>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="text" placeholder="Search image" id="searchKey">
-                  <button class="btn btn-outline-dark" type="button" id="searchBtn">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav> -->
-
-        <!-- search text -->    
-        <!-- <div class="text-dark m-3 text-muted">
-            <h3 id="searchQuery"></h3>
-        </div> -->
-
         <!-- images -->
         <div class="row ps-3 pe-3">
             <div class="col-md-4" id="col-1"></div>
             <div class="col-md-4" id="col-2"></div>
             <div class="col-md-4" id="col-3"></div>
         </div>
-        <!-- <ul class="uk-pagination" data-uk-pagination="{items:100, itemsOnPage:30}" id="pagination"></ul> -->
-        <!-- error div -->
-        <div class="m-5 text-center" id="errorGrid">
-        </div>
+        <div class="m-5 text-center" id="errorGrid"></div>
 
         <!-- modal -->
         <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="nextBtn"></div>
-                <div class="prevBtn"></div>
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Image</h5>
-                  
-                  <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center" id="modalBody"></div>
-                <div class="modal-footer">
-                  <a href="" target="_blank" class="btn btn-success" id="download-btn">Download</a> <a type="button" href ="" target="_blank" class="btn btn-success" id="imageViewLink">View</a>
-                </div>
-            </div>
+              <div class="modal-content">
+                  <div class="nextBtn"></div>
+                  <div class="prevBtn"></div>
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Image</h5>
+                    <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-center" id="modalBody"></div>
+                  <div class="modal-footer">
+                    <a href="" target="_blank" class="btn btn-success" id="download-btn">Download</a> <a type="button" href ="" target="_blank" class="btn btn-success" id="imageViewLink">View More</a>
+                  </div>
+              </div>
             </div>
         </div>
-
     </div>
 
 
